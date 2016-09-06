@@ -1,29 +1,15 @@
-// $(document).mousemove(function(e) {
-//     // $(".circle").mouseover(
-//     //     function (){
-//     //         console.log('hi');
-//     //         $("#image").toggle();
-//     //         $("#image").css({
-//     //             left: e.pageX-200,
-//     //             top: e.pageY-200});
-//     //     }
-//     //
-//     // );
-//
-//
-// });
+$(document).ready(function() {
 
-$(document).mousemove(function(e) {
-    // $(".circle").mouseover(
-    //     function() {
-    //        $("#image").toggle();
-    //         $('#image').offset({
-    //             left: e.pageX,
-    //             top: e.pageY
-    //         });
-    //     }
-    // );
+    $(".circle").click(function() {
+        window.location.href = 'ui-ux.html';
+    });
 
+    $(".triangle").click(function() {
+        window.location.href = 'film-audio.html';
+    });
 
-    
+    $(".square").click(function() {
+        window.location.href = 'art-design.html';
+    });
+
 });
