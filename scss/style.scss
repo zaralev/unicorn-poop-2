@@ -151,7 +151,8 @@ h3 {
     border-radius: 50%;
     border: 1px solid rgba($one, 0);
 
-    &:hover,&:active {
+    &:active,
+    &:hover {
         border: 1px solid $five;
 
         .view {
@@ -169,7 +170,8 @@ h3 {
     border-radius: 4em;
     border: 1px solid rgba($one, 0);
 
-    &:hover,&:active {
+    &:active,
+    &:hover {
         border: 1px solid $six;
 
         .view {
@@ -187,7 +189,8 @@ h3 {
     // border-radius: 2em;
     border: 1px solid rgba($one, 0);
 
-    &:hover,&:active {
+    &:active,
+    &:hover {
         border: 1px solid $seven;
 
         .view {
@@ -218,7 +221,7 @@ h3 {
     color: $three;
     // padding-bottom: 1em;
     @media screen and (min-width: 944px) {
-        height:92vh;
+        height: 92vh;
     }
     @media screen and (min-width:700px) {
         top: 2em;
@@ -230,25 +233,27 @@ h3 {
 // FOOTER
 
 footer {
-  padding:4em;
-  display:block;
-  width:100%;
-  text-align:center;
-  position:relative;
-  bottom:0em;
-  font-size:0.6em;
-  text-transform: uppercase;
-  color: $three;
-  opacity:0.5;
-  transition: 400ms ease;
-  @media screen and (min-width: 944px) {
-      position:absolute;
-        padding:0em;
-  }
+    padding: 4em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    color: $three;
+    opacity: 0.5;
+    transition: 400ms ease;
+    @media screen and (min-width: 944px) {
+        position: absolute;
+        padding: 0;
+    }
 }
-
+.projectFooter {
+  position:relative;
+  padding:4em;
+}
 // NAV
-
 .toggle-class img {
     width: 50px;
 }
@@ -346,7 +351,8 @@ ul li a:first-child {
     background-position: 0 65%;
     transition: 400ms ease;
 
-    &:hover,&:active {
+    &:active,
+    &:hover {
         color: $one;
         text-decoration: none;
         background-image: linear-gradient(rgba($five, 1) 0%, rgba($five, 1) 100%);
@@ -361,7 +367,8 @@ ul li a:first-child {
     background-position: 0 65%;
     transition: 400ms ease;
 
-    &:hover,&:active {
+    &:active,
+    &:hover {
         color: $one;
         text-decoration: none;
         background-image: linear-gradient(rgba($six, 1) 0%, rgba($six, 1) 100%);
@@ -376,7 +383,8 @@ ul li a:last-child {
     background-position: 0 65%;
     transition: 400ms ease;
 
-    &:hover,&:active {
+    &:active,
+    &:hover {
         color: $one;
         text-decoration: none;
         background-image: linear-gradient(rgba($seven, 1) 0%, rgba($seven, 1) 100%);
@@ -387,10 +395,8 @@ ul li a:last-child {
 
 .project {
     border-bottom: 1px solid $two;
-
     ul {
         margin: 2em;
-
         li {
             list-style-type: none;
             display: inline-table;
@@ -409,8 +415,9 @@ ul li a:last-child {
                 @media screen and (min-width: 944px) {
                     width: 35%;
                 }
+
                 img {
-                  max-width:100%;
+                    max-width: 100%;
                 }
             }
 
@@ -435,10 +442,6 @@ ul li a:last-child {
             }
         }
     }
-
-    &:last-child {
-        border-bottom: none;
-    }
 }
 
 .projLink {
@@ -448,7 +451,8 @@ ul li a:last-child {
     background-position: 50% 0;
     transition: 400ms ease;
 
-    &:hover,&:active {
+    &:active,
+    &:hover {
         // color: $one;
         text-decoration: none;
         background-image: linear-gradient(rgba($five, 0.5) 0%, rgba($five, 0.5) 100%);
