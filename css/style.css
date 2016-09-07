@@ -107,6 +107,9 @@ h5.next {
       color: #fff;
       background-color: #000;
       transition: 400ms ease; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    h5.next {
+      word-spacing: 1.5em; } }
 
 .logo {
   cursor: pointer; }
@@ -386,6 +389,10 @@ ul li a.gradient:last-child {
       @media screen and (min-width: 944px) {
         .project ul li {
           padding: 1em; } }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .project ul li iframe {
+          width: 300px;
+          height: 150px; } }
       .project ul li a:active, .project ul li a:hover {
         text-decoration: none; }
       .project ul li:first-child {
@@ -501,7 +508,7 @@ ul li a.gradient:last-child {
       margin-top: 2em; } }
 
 #email {
-  margin: 2em auto 2em auto;
+  margin: 2em auto;
   display: block;
   font-size: 1.6em;
   color: #19e1af;
