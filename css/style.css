@@ -103,7 +103,7 @@ h5.next {
     color: #ccc;
     transition: 400ms ease;
     padding: 0.5em; }
-    h5.next a:hover, h5.next a:active {
+    h5.next a:active, h5.next a:hover {
       color: #fff;
       background-color: #000;
       transition: 400ms ease; }
@@ -473,12 +473,59 @@ ul li a.gradient:last-child {
 .art p a {
   color: #af4ee7;
   border-bottom: 4px solid #000; }
-  .art p a:hover, .art p a:active {
+  .art p a:active, .art p a:hover {
     color: #cb71ff; }
 .art b {
   color: #af4ee7;
   background-color: black;
   padding: 0 0.3em;
   opacity: 1; }
+
+#bio {
+  display: block;
+  width: 90%;
+  margin: 0.7em auto 0;
+  line-height: 180%;
+  padding: 1em; }
+  #bio a {
+    color: #000;
+    background-color: #19e1af;
+    transition: 400ms ease; }
+    #bio a:active, #bio a:hover {
+      color: #fff;
+      background-color: #000;
+      transition: 400ms ease; }
+  @media screen and (min-width: 944px) {
+    #bio {
+      width: 60%;
+      margin-top: 2em; } }
+
+#email {
+  margin: 2em auto 2em auto;
+  display: block;
+  font-size: 1.6em;
+  color: #19e1af;
+  transition: 400ms ease;
+  letter-spacing: 0.2em; }
+  #email:active, #email:hover {
+    color: #ffe00d; }
+  @media screen and (min-width: 944px) {
+    #email {
+      width: 60%;
+      font-size: 2em; } }
+
+#social a img {
+  margin: 1em;
+  opacity: 0.5;
+  width: 40px; }
+  @media screen and (min-width: 944px) {
+    #social a img {
+      width: 70px; } }
+
+#social {
+  margin-bottom: 5em; }
+  @media screen and (min-width: 944px) {
+    #social {
+      margin-bottom: 6em; } }
 
 /*# sourceMappingURL=style.css.map */

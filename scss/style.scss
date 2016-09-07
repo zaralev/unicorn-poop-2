@@ -22,7 +22,6 @@ $seven: #af4ee7;
 $heading: 'kollektif', Helvetica, sans-serif;
 $body: 'gidole', Helvetica, sans-serif; // BODY
 
-
 #stars {
     overflow: hidden;
 }
@@ -121,23 +120,25 @@ h3 {
 }
 
 h5.next {
-  width:90%;
-  text-transform:uppercase;
-  margin:auto;
-  word-spacing: 2.6em;
-  margin-top:1em;
-  transition: 400ms ease;
-  a {
-    color:#ccc;
+    width: 90%;
+    text-transform: uppercase;
+    margin: auto;
+    word-spacing: 2.6em;
+    margin-top: 1em;
     transition: 400ms ease;
-    padding:0.5em;
-    &:hover,&:active {
-      color:#fff;
-      background-color: #000;
-      transition: 400ms ease;
 
+    a {
+        color: #ccc;
+        transition: 400ms ease;
+        padding: 0.5em;
+
+        &:active,
+        &:hover {
+            color: #fff;
+            background-color: #000;
+            transition: 400ms ease;
+        }
     }
-  }
 }
 
 .logo {
@@ -200,7 +201,6 @@ h5.next {
     }
 }
 
-
 .triangle {
     transition: 1s ease-out;
     border-radius: 4em;
@@ -219,24 +219,15 @@ h5.next {
         border: 1px solid $six;
     }
 }
-
-
-
-
-@keyframes rotate-right
-{
+@keyframes rotate-right {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
 }
-
-
-
-
-
 
 .square {
     transition: 1s ease-out;
@@ -589,7 +580,6 @@ ul li a.gradient:last-child {
     // ul li a img {
     //     border: 1px solid rgba($five, 0.8);
     // }
-
     .projLink {
         background-image: linear-gradient(rgba($five, 1) 100%, rgba($five, 1) 0%);
         background-repeat: repeat-y;
@@ -653,7 +643,6 @@ ul li a.gradient:last-child {
     // ul li a img {
     //     border: 1px solid rgba($seven, 0.8);
     // }
-
     .projLink {
         background-image: linear-gradient(rgba($seven, 1) 100%, rgba($six, 1) 0%);
         background-repeat: repeat-y;
@@ -669,12 +658,15 @@ ul li a.gradient:last-child {
             background-size: 100% 1em;
         }
     }
+
     p a {
-      color: $seven;
-      border-bottom: 4px solid #000;
-      &:hover,&:active {
-          color: rgba( #cb71ff, 1);
-      }
+        color: $seven;
+        border-bottom: 4px solid #000;
+
+        &:active,
+        &:hover {
+            color: rgba( #cb71ff, 1);
+        }
     }
 
     b {
@@ -682,5 +674,65 @@ ul li a.gradient:last-child {
         background-color: rgba(#000,1);
         padding: 0 0.3em;
         opacity: 1;
+    }
+}
+
+#bio {
+    display: block;
+    width: 90%;
+    margin: 0.7em auto 0;
+    line-height: 180%;
+    padding: 1em;
+
+    a {
+        color: #000;
+        background-color: $five;
+        transition: 400ms ease;
+
+        &:active,
+        &:hover {
+            color: #fff;
+            background-color: #000;
+            transition: 400ms ease;
+        }
+    }
+    @media screen and (min-width: 944px) {
+        width: 60%;
+        margin-top:2em;
+    }
+}
+
+#email {
+    margin: 2em auto 2em auto;
+    display: block;
+    font-size: 1.6em;
+    color: $five;
+    transition: 400ms ease;
+    letter-spacing: 0.2em;
+
+    &:active,
+    &:hover {
+        color: $six;
+    }
+
+    @media screen and (min-width: 944px) {
+        width: 60%;
+            font-size: 2em;
+    }
+}
+
+#social a img {
+    margin: 1em;
+    opacity: 0.5;
+    width: 40px;
+    @media screen and (min-width: 944px) {
+        width:70px;
+    }
+}
+
+#social {
+    margin-bottom: 5em;
+    @media screen and (min-width: 944px) {
+        margin-bottom: 6em;
     }
 }
