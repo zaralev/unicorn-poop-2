@@ -656,6 +656,12 @@ ul li a.gradient:last-child {
     // ul li a img {
     //     border: 1px solid rgba($seven, 0.8);
     // }
+
+        ul li iframe {
+            margin-left: -1em;
+            // width:340;
+            // height:191;
+        }
     .projLink {
         background-image: linear-gradient(rgba($seven, 1) 100%, rgba($six, 1) 0%);
         background-repeat: repeat-y;

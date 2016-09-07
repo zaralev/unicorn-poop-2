@@ -466,6 +466,8 @@ ul li a.gradient:last-child {
   padding: 0 0.3em;
   opacity: 1; }
 
+.art ul li iframe {
+  margin-left: -1em; }
 .art .projLink {
   background-image: linear-gradient(#af4ee7 100%, #ffe00d 0%);
   background-repeat: repeat-y;
