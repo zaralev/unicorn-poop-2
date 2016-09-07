@@ -4,5 +4,7 @@ $(function() {
 
     $(toggleClass).click(function() {
         $(navClass).toggleClass('show');
+
     });
+
 });
