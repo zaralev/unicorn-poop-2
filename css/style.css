@@ -537,4 +537,99 @@ ul li a.gradient:last-child {
     #social {
       margin-bottom: 6em; } }
 
+ul#resume #experience h5 + span {
+  color: #555; }
+ul#resume #experience .list .date span:nth-child(2) {
+  border-bottom: 1px solid #ffe00d; }
+ul#resume #experience .info h6 + span {
+  color: #af4ee7; }
+ul#resume #education .list .date span:nth-child(2) {
+  border-bottom: 1px solid #19e1af; }
+ul#resume #education .info h6 + span {
+  color: #ffe00d; }
+ul#resume #activities .list .date span:nth-child(2) {
+  border-bottom: 1px solid #af4ee7; }
+ul#resume #activities .info h6 + span {
+  color: #19e1af; }
+ul#resume #projects .list .date span:nth-child(2) {
+  border-bottom: 1px solid #ffe00d; }
+ul#resume #projects .info h6 + span {
+  color: #af4ee7; }
+ul#resume .section {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1em;
+  margin-left: -1em;
+  margin-right: -1em; }
+ul#resume h5 {
+  color: #fff;
+  font-size: 1.8em;
+  font-family: "kollektif", Helvetica, sans-serif;
+  text-transform: lowercase; }
+  ul#resume h5 + span {
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+    text-transform: uppercase; }
+ul#resume li {
+  list-style-type: none;
+  display: inline-table;
+  text-align: left;
+  margin-bottom: -1em; }
+  ul#resume li#firstColumn {
+    width: 100%;
+    padding: 1em; }
+    @media screen and (min-width: 944px) {
+      ul#resume li#firstColumn {
+        width: 49%; } }
+  ul#resume li#secondColumn {
+    width: 100%;
+    padding: 1em; }
+    @media screen and (min-width: 944px) {
+      ul#resume li#secondColumn {
+        width: 49%; } }
+ul#resume ul.list {
+  margin: 1.3em 0 2em; }
+  ul#resume ul.list li {
+    list-style-type: none;
+    display: inline-table; }
+    ul#resume ul.list li.date {
+      margin-right: 0.1em;
+      width: 28%;
+      text-align: right; }
+      ul#resume ul.list li.date span {
+        display: block; }
+        ul#resume ul.list li.date span:first-child {
+          margin-bottom: 0.3em;
+          color: #ddd; }
+        ul#resume ul.list li.date span:nth-child(2) {
+          text-transform: uppercase;
+          padding-bottom: 0.3em;
+          font-size: 0.8em; }
+      @media screen and (min-width: 944px) {
+        ul#resume ul.list li.date {
+          margin-right: 0.3em;
+          width: 30%; } }
+    ul#resume ul.list li.info {
+      width: 70%;
+      line-height: 1.3em;
+      padding-left: 0.5em;
+      text-align: justify; }
+      @media screen and (min-width: 944px) {
+        ul#resume ul.list li.info {
+          width: 67%;
+          padding-left: 0.2em;
+          text-align: left; } }
+      ul#resume ul.list li.info h6 {
+        color: #fff;
+        font-family: "kollektif", Helvetica, sans-serif;
+        letter-spacing: 0.1em; }
+        ul#resume ul.list li.info h6 + span {
+          text-transform: uppercase;
+          display: block;
+          letter-spacing: 0.2em;
+          font-size: 0.8em;
+          margin-bottom: 0.4em; }
+      ul#resume ul.list li.info ul#bullets li {
+        margin: 0 0 0.4em;
+        padding: 0; }
+
 /*# sourceMappingURL=style.css.map */
