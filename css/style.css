@@ -493,9 +493,8 @@ ul li a.gradient:last-child {
 #bio {
   display: block;
   width: 90%;
-  margin: 0.7em auto 0;
-  line-height: 180%;
-  padding: 1em; }
+  margin: 0 auto;
+  line-height: 180%; }
   #bio a {
     color: #000;
     background-color: #19e1af;
@@ -631,5 +630,33 @@ ul#resume ul.list {
       ul#resume ul.list li.info ul#bullets li {
         margin: 0 0 0.4em;
         padding: 0; }
+
+#contact {
+  margin: 1.5em auto; }
+  #contact li {
+    list-style-type: none;
+    display: inline-table;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0; }
+    #contact li img {
+      max-width: 80%;
+      margin: -1em 0 1em 0;
+      transition: 0.6s ease-out; }
+      @media screen and (min-width: 944px) {
+        #contact li img {
+          margin-left: 4em;
+          max-width: 150%;
+          margin: auto; } }
+    #contact li:first-child {
+      width: 100%; }
+      @media screen and (min-width: 944px) {
+        #contact li:first-child {
+          width: 25%; } }
+    #contact li:last-child {
+      width: 100%; }
+      @media screen and (min-width: 944px) {
+        #contact li:last-child {
+          width: 74%; } }
 
 /*# sourceMappingURL=style.css.map */
