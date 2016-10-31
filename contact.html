@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- Make the app title different than the page title. -->
     <meta name="apple-mobile-web-app-title" content="zaralev">
-    
+
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
     <link rel="stylesheet" href="css/reset.css" media="screen">
@@ -61,9 +61,9 @@
         </button>
         <div id="links">
             <ul>
-                <li><a href="index.html" class="gradient">Home</a><br><br>
-                    <a href="contact.html" class="gradient second">Contact</a><br><br>
-                    <a href="resume.html" class="gradient">Resume</a>
+                <li><a onclick="jmp2LocalPage('index.html')" class="gradient">Home</a><br><br>
+                    <a onclick="jmp2LocalPage('contact.html')" class="gradient second">Contact</a><br><br>
+                    <a onclick="jmp2LocalPage('resume.html')" class="gradient">Resume</a>
                 </li>
                 <li>
                     <a id="twitter" href="https://twitter.com/zaralev" target="_blank"><img src="img/twitter2.png" alt="Twitter"></a>
@@ -84,7 +84,9 @@
         <ul id="contact">
             <li><img src="img/zara.jpg" alt="Zara Leventhal" /></li>
             <li>
-                <p id="bio">Currently located in <span style="color:#af4ee7;">Philadelphia, PA</span> studying at <a href="http://drexel.edu/undergrad/co-op/overview/">Drexel University</a>. Grew up around the country, primarily in <span style="color:#ffe00d;">New York City</span>.
+                <p id="bio">Currently located in <span style="color:#af4ee7;">Philadelphia, PA</span> studying at Drexel University. I grew up around the country (and in Singapore), but primarily in <span style="color:#ffe00d;">New York City</span>. <br>
+
+                  I love a fast-paced work environment and I have a particular interest in <span style="color:#fff;">experimental technology</span> involving fully-immersive, interactive exhibits.
                     Hire me and bring me to where you are!</p>
                 <a id="email" href="mailto:zl@zara-leventhal.com">zl<span></span>@zara<span></span>-leventhal.com</a></li>
         </ul>
